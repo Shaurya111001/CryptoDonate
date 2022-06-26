@@ -32,6 +32,7 @@ const Login=()=> {
             console.log(error);
        //Perform action based on error
         });
+          navigate('/app');
     } else {
         alert("The search query cannot be empty")
     }
