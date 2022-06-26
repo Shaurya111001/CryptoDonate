@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.mainbody {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.headerlogin{
+  background-color: black;
+}
+.space{
+  background-color: #e6e4ff;
+  height: 200px;
+}
+.section2{
+  background-color: black;
+}

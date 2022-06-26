@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow: hidden scroll;
+}
+
+.login #navbar-ul {
+    padding-left: 17%;
+}
+
+.login #navbar-ul>li {
+    padding-left: 10px;
+}
+
+.login #navbar-ul li>a {
+    color: #0b1514;
+}
+
+#searchbox>button,
+.login #login-btn {
+    background-color: #3371f2;
+    border-color: #3371f2;
+    border-radius: 8px;
+}
+
+.login .nav-right ul>li {
+    padding: 0px 10px 0px 0px;
+}
+
+.login .nav-right {
+    padding-left: 17%;
+}
+
+.login .blue_bubble_with_dots_tail{
+    margin-top: 280px;
+    margin-left: -165px;
+}
+
+.login .showcase_logo1{
+    margin-left: 215px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.login .container-1 {
+    background: #e5e5e5;
+    width: 550px;
+    height: 675px;
+    margin-left: 65px;
+    margin-top: 125px;
+    border-radius: 20px;
+}
+
+.login .form1{
+    text-align: center;
+}
+
+.login .container-1 h6{
+    margin-top: 12px; 
+    font-size: 25px;
+}
+
+.login .plogin{
+    margin-top: -15px;
+}
+
+.login .ppassword{
+    padding-right: 33%;
+}
+
+.login .paccount{
+    color: #3371f2;
+}
+
+.login .image1178{
+    margin-top: 80px; 
+    margin-left: -140px;
+}
+
+.login .blue_round_speech_bubble{
+    margin-left: 280px;
+}
+
+/*full-width input fileds*/
+input[type=text],
+input[type=password] {
+    width: 350px;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-color: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+
+/*set a style for the submit button*/
+.login .signbtn {
+    background-color: #3371f2;
+    color: white;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: none;
+    width: 350px;
+    opacity: 0.9;
+    border-radius: 15px;
+
+
+}
+
+.signbtn:hover {
+    opacity: 1;
+}
+
+.googlebtn {
+    background-color: none;
+    color: black;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: none;
+    width: 350px;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.login .googlebtn:hover {
+    opacity: 1;
+}
+
+.login .content {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+}
+
